@@ -1,0 +1,235 @@
+/* *{
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#bolimlar{
+    text-decoration: none !important;
+}
+
+.header_bolimlar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+} */
+
+
+
+body{
+    background-color: rgba(242, 244, 255, 0.712);
+    margin: 0;
+    padding: 0;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.footer{
+    background-color: #232323;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #232323;
+    width: 100%;
+    height: 500px;
+}
+
+.container{
+    color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+}
+
+.Visual_Positioning{
+    font-size: 2.3em;
+    color: #fff;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+.Lorem_GPS{
+    margin-top: 20px;
+    font-size: 1.05em;
+    color: #fff;
+    font-weight: 150;
+}
+
+.footerlogo{
+    margin-left: 3.5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 80px;
+}
+
+.Logotip_SQUARY{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+    align-content: flex-end;
+}
+
+.LOGOTIP{
+    margin-top: px;
+    font-size: 1.9em;
+    color: #fff;
+    font-weight: 700;
+}
+
+.Block_SQUARY{
+    font-size: 1.9em;
+    color: #fff;
+    font-weight: 700;
+    background: none;
+    border: solid #fff 0.5px;  
+    height: 45px;
+    width: 45px;
+
+}
+
+#SQUARY_S{
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 28px;
+}
+
+.footer_menu_type{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer_menu_pages{
+    margin-left: 40px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#footer_menu_pages:hover{
+    text-decoration: underline !important;
+}
+
+#button_1 button{
+    font-weight: 900;
+    margin-left: 43px;
+    font-size: 0.8em;
+    border: none;
+    text-align: center;
+    width: 105px;
+    height: 31px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: rgb(214, 55, 82);
+    transition: 1s;
+}
+
+#button_1 button:hover{
+    background-color: rgb(151, 47, 64); 
+    transition: 1s;   
+}
+
+.footer_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-bottom: 1em;
+}
+
+.button_one{
+    border: solid #fff 3px;
+    padding: 0;
+    text-align: center;
+    width: 105px;
+    height: 31px;
+}
+
+.reklama_button{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.Asosiy_Reklama{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-left: 60px;
+}
+
+.reklama_image img{
+    height: 400px;
+}
+
+.Navbar_reklama{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start
+}
+
+#button_2 button{
+    font-weight: 900;
+    font-size: 0.8em;
+    border: none;
+    text-align: center;
+    width: 170px;
+    height: 31px;
+    color: #fff;
+    margin-left: 15px;
+    border-radius: 3px;
+    background-color: rgb(214, 55, 82);
+    transition: 1s;
+}
+
+#button_2 button:hover{
+    background-color: rgb(151, 47, 64); 
+    transition: 1s;   
+}
+
+.cards{
+    width: 300px;
+    height: auto;
+    display: flex;
+    box-shadow: 5px 5px 20px #23232333;
+    color: #232323;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.image img{
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.text_name p{
+    font-size: 1.170em;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.text p{
+    font-size: 0.9em;
+}
